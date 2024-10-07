@@ -1,0 +1,12 @@
+Сутність flight атрибутами: (flight_id, flight_number, departure_date, arrival_date, status, departure_terminal, arrival_terminal, aircraft_id (поле необов’язкове), 
+departure_airport_id (поле необов’язкове) , arrival_airport_id (поле не обов’язкове));
+
+Сутність aircraft атрибутами: (aircraft_id, model_name, manufacturer, year_manufacture, seat_capacity);
+
+Сутність passenger атрибутами: (passenger_id, first_name, last_name, date_birth, passport_number, contact_info);
+
+Сутність orders атрибутами: (orders_id, employee_id, product_id, customer_id, transaction_type, transaction_moment, amount);
+
+Сутність crew атрибутами: (crew_id, captain, first_officer, flight_attendants);
+
+Сутність airport атрибутами: (airport_id, airport_name, country, city, airport_code);
